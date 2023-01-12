@@ -1,0 +1,10 @@
+@import "./variables.scss";
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    position: relative;
+    transition: all .3s;
+}

@@ -1,0 +1,17 @@
+@import './variables.scss';
+@import url('https://webfontworld.github.io/tmoney/TmoneyRoundWind.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: $navy;
+  font-family: 'TmoneyRoundWind';
+  background-color: transparent;
+}

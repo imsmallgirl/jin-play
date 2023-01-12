@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.control-area {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 30px;
+    margin-top: 100px;
+
+    svg{
+        cursor: pointer;
+    }
+
+    .music-play{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        svg:nth-child(2){
+            color: $purple;
+            font-size: 70px;
+        }
+    }
+
+    .volume{
+        display: flex;
+        align-items: center;
+        gap:10px;
+
+        .volume-slider{
+            color:$purple;
+        }
+    }
+}
