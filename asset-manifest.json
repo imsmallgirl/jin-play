@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jin-play/static/css/main.a1cb771b.css",
+    "main.js": "/jin-play/static/js/main.55edf0bc.js",
+    "static/media/everyday.mp3": "/jin-play/static/media/everyday.74b59efb0cb581acd3b4.mp3",
+    "static/media/Eight.mp3": "/jin-play/static/media/Eight.8bca89573b0ff0122122.mp3",
+    "static/media/사계.mp3": "/jin-play/static/media/사계.af6f3da10f8f7ac61724.mp3",
+    "static/media/hypeboy.mp3": "/jin-play/static/media/hypeboy.c4ba064b5371e8885909.mp3",
+    "static/media/countingstars.mp3": "/jin-play/static/media/countingstars.f9d769f4389c5aa82484.mp3",
+    "static/media/newjeans.jpg": "/jin-play/static/media/newjeans.9027fab808ba1b3140f9.jpg",
+    "static/media/mcthemax.jpeg": "/jin-play/static/media/mcthemax.5fe8635057ed9006a5d3.jpeg",
+    "static/media/IU.jpg": "/jin-play/static/media/IU.aedf791d2b5c6155699d.jpg",
+    "static/media/김세정.JPG": "/jin-play/static/media/김세정.c9430eafe846bbb456ee.JPG",
+    "static/media/beo.jpeg": "/jin-play/static/media/beo.cfafc922bc51ca03f0ca.jpeg",
+    "index.html": "/jin-play/index.html",
+    "main.a1cb771b.css.map": "/jin-play/static/css/main.a1cb771b.css.map",
+    "main.55edf0bc.js.map": "/jin-play/static/js/main.55edf0bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1cb771b.css",
+    "static/js/main.55edf0bc.js"
+  ]
+}
