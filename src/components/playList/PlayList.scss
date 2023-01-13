@@ -15,10 +15,19 @@
     scrollbar-width: none;
     box-shadow: 10px 0px 30px $lightBoxShadow;
 
-    h2 {
-        padding: 0 30px;
-        margin-bottom: 30px;
+   .play-list-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    justify-content: space-between;
+    svg{
+        font-size: 24px;
+        cursor: pointer;
+        color: $navy;
     }
+   }
+
     .play-list-item{
         cursor: pointer;
         display: flex;

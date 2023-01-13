@@ -1,5 +1,5 @@
 import { duration } from '@mui/material';
-import React, { forwardRef, useCallback, useImperativeHandle, useRef, useState } from 'react'
+import React, { forwardRef, memo, useCallback, useImperativeHandle, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { nextMusic, pauseMusic, playMusic, updateCurrentTime, updateDurationTime } from '../../store/JinPlayReducer';
 import './Progressbar.scss'
@@ -83,4 +83,4 @@ function ProgressBar(props, ref) {
   )
 }
 
-export default forwardRef(ProgressBar) 
+export default memo(forwardRef(ProgressBar)) 

@@ -36,7 +36,7 @@ function App() {
           <ProgressBar ref={audioRef}/>
           <Control onPlay={onPlay} onPause={onPause} changeVolume={changeVolume} resetMusic={resetMusic}/>
       </div>
-      <PlayList showing={showing}/>
+      <PlayList showing={showing} setShowing={setShowing}/>
     </div>
   );
 }

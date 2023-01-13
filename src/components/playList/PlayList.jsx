@@ -1,11 +1,12 @@
-import React, { useCallback } from 'react'
+import React, { memo, useCallback } from 'react'
 import './PlayList.scss'
 import PlayListItem from './PlayListItem'
 import { useDispatch, useSelector } from 'react-redux'
 import { setCurrentIndex, updatePlayList } from '../../store/JinPlayReducer'
 import SortableList from '../sortable/SortableList'
+import { IoClose } from "react-icons/io5";
 
-function PlayList({showing}) {
+function PlayList({showing, setShowing}) {
 
   const { JinPlayList } = useSelector((state) => ({JinPlayList : state.JinPlayList}))
   const dispatch = useDispatch()
@@ -24,7 +25,11 @@ function PlayList({showing}) {
 
   return (
     <div className={showing ? `play-list showPlayList` : "play-list"}>
-      <h2>Play List</h2>
+      <div className='play-list-head'>
+        <h2>Play List</h2>
+        <IoClose onClick={() => setShowing(false)}/>
+      </div>
+
       <SortableList
       data={JinPlayList}
       onDropItem={onDropItem}
@@ -35,4 +40,4 @@ function PlayList({showing}) {
   )
 }
 
-export default PlayList
+export default memo(PlayList) 

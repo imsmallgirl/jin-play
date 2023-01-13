@@ -116,4 +116,4 @@ function Control(
   )
 }
 
-export default Control
+export default memo(Control)
